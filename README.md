@@ -12,15 +12,21 @@ V2 Planned Release:
 - Waiting for the bloody POST api back from support.
 - Post some mothafuckin values back and BOSH JOB DONE!
 
-
 Configuration:
--Install Plugin
--Set Email
--Set Password
--Set Poll Interval to 60
--Press OK
--Next screen should autofetch a list where you can select your inverter.
--First Log Run will output all read only settings, which is used later on for writing back to the API.
+ - Install Plugin
+ - Set Email
+ - Set Password
+ - Set Poll Interval to 60
+ - Press OK
+ - Next screen should autofetch a list where you can select your inverter.
+ - First Log Run will output all read only settings, which is used later on for writing back to the API.
+
+A successful setup should indicate in logs:
+ - 2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Setting up integration (v0.3.5)
+ - 2026-01-19 21:09:01.452 WARNING (MainThread) [s34synk] S34Synk | SSL verification is DISABLED. Use only if Sunsynk CA chain is broken.
+ - 2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI
+ - 2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS (token acquired)
+ - 2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | Fetching inverter list via signed OpenAPI
 
 Add this to the end of your Home Assistant Configuration.yaml:
 logger:
@@ -28,9 +34,4 @@ logger:
   logs:
     s34synk: debug
 
-A successful setup should indicate in logs:
-2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Setting up integration (v0.3.5)
-2026-01-19 21:09:01.452 WARNING (MainThread) [s34synk] S34Synk | SSL verification is DISABLED. Use only if Sunsynk CA chain is broken.
-2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI
-2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS (token acquired)
-2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | Fetching inverter list via signed OpenAPI
+
