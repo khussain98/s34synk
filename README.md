@@ -1,5 +1,5 @@
 # s34synk
-Got bored, wanted to add Sunsynk integration to my HA with no real options out there, so just working on this on my spare time as I go along. This uses the Official Sunsynk API 
+Got bored, wanted to add Sunsynk integration to my HA with no real options useful options out there without doing modbus crap, so I decided to use the Official Sunsynk API. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
 
 V1 Release:
 - Current Read Only API
@@ -7,7 +7,7 @@ V1 Release:
 - Retrieves Invertor List for Selection
 - Dumps all Invertor Values to log files
 
-  V2 Planned Release:
+V2 Planned Release:
 - Waiting for the bloody POST api back from support.
 - Post some mothafuckin values back and BOSH JOB DONE!
 
