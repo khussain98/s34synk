@@ -27,3 +27,10 @@ logger:
   default: warning
   logs:
     s34synk: debug
+
+A successful setup should indicate in logs:
+2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Setting up integration (v0.3.5)
+2026-01-19 21:09:01.452 WARNING (MainThread) [s34synk] S34Synk | SSL verification is DISABLED. Use only if Sunsynk CA chain is broken.
+2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI
+2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS (token acquired)
+2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | Fetching inverter list via signed OpenAPI
