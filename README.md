@@ -1,10 +1,15 @@
 # s34synk
-Homemade Addon for Home Assistant. Allows you to integrate your Sunsynk account with the Official API for real-time solar energy monitoring, and enabling smart automations and custom alerts. Stay in control with all the customisations at your fingertips.
+Got bored, wanted to add Sunsynk integration to my HA with no real options out there, so just working on this on my spare time as I go along. This uses the Official Sunsynk API 
 
 V1 Release:
 - Current Read Only API
 - Fixed SSL Handling
+- Retrieves Invertor List for Selection
+- Dumps all Invertor Values to log files
 
+  V2 Planned Release:
+- Waiting for the bloody POST api back from support.
+- Post some mothafuckin values back and BOSH JOB DONE!
 
   Configuration:
   -Install Plugin
