@@ -17,9 +17,9 @@ Configuration:
  - Set Email
  - Set Password
  - Set Poll Interval to 60
+ - Set Inverter S/N (OPTIONAL - YOU CAN AUTO-RETRIEVE OTHERWISE ON NEXT SCREEN)
  - Press OK
  - Next screen should autofetch a list where you can select your inverter.
- - First Log Run will output all read only settings, which is used later on for writing back to the API.
 
 A successful setup should indicate in logs:
  - 2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Setting up integration (v0.3.5)
