@@ -14,3 +14,9 @@ V1 Release:
   -Press OK
   -Next screen should autofetch a list where you can select your inverter.
   -First Log Run will output all read only settings, which is used later on for writing back to the API.
+
+Add this to the end of your Home Assistant Configuration.yaml:
+logger:
+  default: warning
+  logs:
+    s34synk: debug
