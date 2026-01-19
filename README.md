@@ -3,9 +3,10 @@ Got bored, wanted to add Sunsynk integration to my HA with no real options usefu
 
 V1 Release:
 - Current Read Only API
-- Fixed SSL Handling
-- Retrieves Invertor List for Selection
-- Dumps all Invertor Values to log files
+- Latest OAuth Handling as per SS API
+- Fixed SSL Cert Handling (due to SS intermediate ssl missing.. oh boy)
+- Retrieves Invertor List for Selection after Configuration
+- Dumps all Invertor Values to log files (DEBUG)
 
 V2 Planned Release:
 - Waiting for the bloody POST api back from support.
