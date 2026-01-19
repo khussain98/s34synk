@@ -11,14 +11,15 @@ V2 Planned Release:
 - Waiting for the bloody POST api back from support.
 - Post some mothafuckin values back and BOSH JOB DONE!
 
-  Configuration:
-  -Install Plugin
-  -Set Email
-  -Set Password
-  -Set Poll Interval to 60
-  -Press OK
-  -Next screen should autofetch a list where you can select your inverter.
-  -First Log Run will output all read only settings, which is used later on for writing back to the API.
+
+Configuration:
+-Install Plugin
+-Set Email
+-Set Password
+-Set Poll Interval to 60
+-Press OK
+-Next screen should autofetch a list where you can select your inverter.
+-First Log Run will output all read only settings, which is used later on for writing back to the API.
 
 Add this to the end of your Home Assistant Configuration.yaml:
 logger:
