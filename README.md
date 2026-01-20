@@ -22,6 +22,9 @@ Configuration:
 
 A successful setup should indicate in logs:
 <img width="742" height="195" alt="image" src="https://github.com/user-attachments/assets/199d9c16-eedc-4224-b3c6-0c985f948d65" />
+<img width="1428" height="201" alt="image" src="https://github.com/user-attachments/assets/074779e2-791e-4c2b-8c20-470ce762e00b" />
+<img width="396" height="102" alt="image" src="https://github.com/user-attachments/assets/ba1d1575-0361-458c-a9fd-7ead9b3eb355" />
+<img width="401" height="109" alt="image" src="https://github.com/user-attachments/assets/0c64c9ef-5d11-4bdd-b679-826d1921a6d1" />
 
 
 Add this to the end of your Home Assistant Configuration.yaml:
