@@ -1,4 +1,4 @@
-# s34synk
+<img width="742" height="195" alt="image" src="https://github.com/user-attachments/assets/a86419a5-4c44-4f33-b293-5d39bf62f6fc" /># s34synk
 Got bored, wanted to add Sunsynk integration to my HA with no real options useful options out there without doing modbus crap, so I decided to use the Official Sunsynk API. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
 
 V1 Release:
@@ -22,11 +22,8 @@ Configuration:
  - Next screen should autofetch a list where you can select your inverter.
 
 A successful setup should indicate in logs:
-- 2026-01-20 19:01:45.962 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI (JSON Mode)
-- 2026-01-20 19:01:47.933 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS
-- 2026-01-20 19:01:47.934 INFO (MainThread) [s34synk] S34Synk | Discovering plant metadata
-- 2026-01-20 19:01:48.363 INFO (MainThread) [s34synk] Plant Found: PLANT ABC (ID: XXXXX)
-- 2026-01-20 19:01:48.784 INFO (MainThread) [s34synk] Inverter: SN=XXXXXX26, Power=0W
+<img width="742" height="195" alt="image" src="https://github.com/user-attachments/assets/199d9c16-eedc-4224-b3c6-0c985f948d65" />
+
 
 Add this to the end of your Home Assistant Configuration.yaml:
 logger:
