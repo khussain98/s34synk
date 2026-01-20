@@ -1,4 +1,3 @@
-<img width="742" height="195" alt="image" src="https://github.com/user-attachments/assets/a86419a5-4c44-4f33-b293-5d39bf62f6fc" /># s34synk
 Got bored, wanted to add Sunsynk integration to my HA with no real options useful options out there without doing modbus crap, so I decided to use the Official Sunsynk API. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
 
 V1 Release:
