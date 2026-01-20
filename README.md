@@ -1,4 +1,4 @@
-Got bored, wanted to add Sunsynk integration to my HA with no real options useful options out there without doing modbus crap, so I decided to use the Official Sunsynk API. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
+Allows you to integrate your Sunsynk Invertor with Home Assistant with the Official API for real-time solar energy monitoring, and enabling smart automations and custom alerts. Stay in control with all the customisations at your fingertips.. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
 My Test Environment:
  - SunSynk 8kw Invertor
  - 16.1kw Battery
