@@ -22,11 +22,11 @@ Configuration:
  - Next screen should autofetch a list where you can select your inverter.
 
 A successful setup should indicate in logs:
- - 2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Setting up integration (v0.3.5)
- - 2026-01-19 21:09:01.452 WARNING (MainThread) [s34synk] S34Synk | SSL verification is DISABLED. Use only if Sunsynk CA chain is broken.
- - 2026-01-19 21:09:01.452 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI
- - 2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS (token acquired)
- - 2026-01-19 21:09:02.527 INFO (MainThread) [s34synk] S34Synk | Fetching inverter list via signed OpenAPI
+- 2026-01-20 19:01:45.962 INFO (MainThread) [s34synk] S34Synk | Authenticating via signed OpenAPI (JSON Mode)
+- 2026-01-20 19:01:47.933 INFO (MainThread) [s34synk] S34Synk | OpenAPI authentication SUCCESS
+- 2026-01-20 19:01:47.934 INFO (MainThread) [s34synk] S34Synk | Discovering plant metadata
+- 2026-01-20 19:01:48.363 INFO (MainThread) [s34synk] Plant Found: PLANT ABC (ID: XXXXX)
+- 2026-01-20 19:01:48.784 INFO (MainThread) [s34synk] Inverter: SN=XXXXXX26, Power=0W
 
 Add this to the end of your Home Assistant Configuration.yaml:
 logger:
