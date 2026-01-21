@@ -1,3 +1,5 @@
+tldr; I got bored, this integration or a useful one enough didn't exist without the likes of modbus and other faffing around, so i made this to serve the purpose.
+
 Allows you to integrate your Sunsynk Invertor with Home Assistant with the Official API for real-time solar energy monitoring, and enabling smart automations and custom alerts. Stay in control with all the customisations at your fingertips.. No Extra Peripherals, No Wiring, No faffing around, just str8 api yo
 My Test Environment:
  - SunSynk 8kw Invertor
